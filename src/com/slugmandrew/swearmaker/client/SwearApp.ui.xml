@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder' xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<ui:style>
+		.panel {
+			
+			text-align: center;
+		}
+		
+		.swearButton {
+			font-size: 22px;
+			padding: 10px;
+			margin: 10px;
+		}
+		
+		.swearLabel {
+			font: 18px Verdana;
+			padding: 10px;
+			background-color: ivory;
+		}
+	</ui:style>
+
+	<g:FlowPanel styleName="{style.panel}">
+
+		<g:HTML ui:field="swearLabel" styleName="{style.swearLabel}">You such and such and such</g:HTML>
+
+		<g:Button ui:field="swearButton" addStyleNames="{style.swearButton}">Swear!</g:Button>
+
+
+
+	</g:FlowPanel>
+
+
+
+
+</ui:UiBinder>
